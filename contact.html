@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="description" content="JourneyJanction Contact Form ">
+		<meta name="keywords" content="JourneyJanction Contact Form ">
+        <meta name="vewport" content="width=device-width, initail-scaled=1.0">
+        <title>House information and detaile</title>
+        <script src="https://kit.fontawesome.com/dc916b4398.js" crossorigin="anonymous"></script>     
+        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="normalize.css">
+    </head>
+    <body>
+        <section class="top">
+            <h2><em>JourneyJanction</em></h2>
+            <div class="lin"></div>
+        </section>
+		<nav id="navbar" class="navbar-white">
+            <a href="index.html"><img src="images/nlogo.png" class="logo"></a>
+                <ul class="nav-links">
+                    <li class="what_to_do">
+                     <h2><em>Where can we take you ?</em></h2>
+                     <ul>
+                          <li><a href="destinations.html">Destinations</a></li>
+                          <li><a href="stays.html">Stays</a></li>
+                         <ul>
+                            <h4>need help?</h4>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="things.html">Things to do</a></li>
+                         </ul>
+                     </ul>
+                    </li>
+                    
+                 </ul>
+            <a href="Register.html" class="register-btn">register now</a>
+            <i class="fa fa-bars " onclick="togglebtn()"></i>
+        </nav>
+	
+	<h1>Get in Touch</h1>
+	<div class="line"></div>
+	<form class="fom" action="sendmail.php" method="post" name="contact_form" id="contact_form">
+		<div class="field">
+		<fieldset> 
+        	<legend class="leg">Contact Information</legend>
+            <label class="lab" for="first_name">First Name:</label>
+			<input class="inp" type="text" name="first_name" id="first_name" required><br>
+			<label class="lab" for="last_name">Last Name:</label>
+			<input class="inp" type="text" name="last_name" id="last_name" required><br>
+        	<label class="lab" for="email">Email Address:</label>
+        	<input class="inp" type="email" name="email" id="email" required><br>
+        	<label class="lab" for="verify">Verify Email:</label>
+        	<input class="inp" type="email" name="verify" id="verify" required autocomplete="off"><br>
+			<label class="lab" for="phone">Phone Number:</label>
+			<input class="inp" type ="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="999-999-9999" required><br>
+		</fieldset>
+		<fieldset>
+    		<legend class="leg">Message Information</legend>
+			<label class="lab" for="reservation_date">Reservation Date:</label>
+			<input class="inp" type="date" name="reservation_date" id="today_date" required><br>
+			<label class="lab" for="subject">Subject:</label>         
+            <select name="subject" id="subject">
+                <option value="Special Events">Special Events</option>
+                <option value="Reservations">Reservations</option>
+                <option value="Employment">Employment</option>
+                <option value="Other">Other</option>
+            </select><br>
+			<label class="lab" for="message">Message:</label>
+			<textarea id="message" name="message" rows="4" required></textarea>
+		</fieldset>
+		<fieldset id="buttons">
+			<legend class="leg">Submit Your Email Message</legend>
+			<label class="lab">&nbsp;</label>
+			<input class="inp" type="submit" id="submit" value="Send Email">
+			<input class="inp" type="reset" id="reset" value="Reset"><br>
+		</fieldset>
+	</div>
+	</form>
+
+
+	<script>
+		var navbar = document.getElementById("navbar");
+		function togglebtn(){
+			navbar .classList.toggle("hidemenu");
+		}
+	</script>
+</body>
+</html>
+
+

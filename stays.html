@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vewport" content="width=device-width, initail-scaled=1.0">
+        <title>House information and detaile</title>
+        <script src="https://kit.fontawesome.com/dc916b4398.js" crossorigin="anonymous"></script>     
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="top">
+            <h2><em>JourneyJanction</em></h2>
+            <div class="lin"></div>
+        </section>
+        <nav id="navbar" class="navbar-white">
+            <a href="index.html"><img src="images/nlogo.png" class="logo"></a>
+                <ul class="nav-links">
+                    <li class="what_to_do">
+                     <h2><em>Where can we take you ?</em></h2>
+                     <ul>
+                          <li><a href="destinations.html">Destinations</a></li>
+                          <li><a href="stays.html">Stays</a></li>
+                         <ul>
+                            <h4>need help?</h4>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="things.html">Things to do</a></li>
+                         </ul>
+                     </ul>
+                    </li>
+                    
+                 </ul>
+            <a href="Register.html" class="register-btn">register now</a>
+            <i class="fa fa-bars " onclick="togglebtn()"></i>
+        </nav>
+        <div class="x-container">
+        <div class="house_details">
+           <div class="house_title">
+            <h1>MaryG</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <span>250 Reviews</span>
+                </div>
+                <div>
+                    <p>Location, San Francisco, california, united states</p>
+                </div>
+            </div>
+           </div> 
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"> <img src="images/hom.jpg" alt="house"></div>
+            <div> <img src="images/bedrm.jpg" alt=""></div>
+            <div> <img src="images/living.jpg" alt=""></div>
+            <div> <img src="images/kitchen.jpg" alt=""></div>
+            <div> <img src="images/pool.jpg" alt=""></div>
+        </div>
+        
+        <div class="small-details">
+            <h2>Entire rental unit hosted Serge Henry</h2>
+            <p>2 bed / 1 bath / kitchen / pool</p>
+            <h4>$100 / day</h4>
+        </div>
+        <hr class="line">
+             
+         <form class="check-form">
+
+          <div>
+            <label>check-in</label>
+            <input type="text" placeholder="Add date">
+        </div>
+        <div>
+            <label>check-out</label>
+            <input type="text" placeholder="Add date">
+        </div>
+        <div class="guest-land">
+            <label>Guest</label>
+            <input type="text" placeholder="2 guest">
+        </div>
+
+         <button type="submit">Check</button>
+
+         </form>
+
+         <ul class="datal-l">
+         
+              <li><i class="fa-solid fa-house"></i>Enter our house
+              <span>You will have the entire flat for you</span>
+            </li>
+              <li><i class="fa-solid fa-broom"></i>Enhance clean
+              <span>this host has commited to JourneyJanction's cleaniong process</span>
+            </li>
+              <li><i class="fa-solid fa-map-pin"></i>Great location
+              <span>90% of recent guest have the location a 5 star rating</span>
+            </li>
+              <li><i class="fa-solid fa-heart"></i>Great check-in experience
+              <span>100% of recent guest have the check-in process a 5 star rating</span></li>
+         </ul>
+         <hr class="line">
+         <p class="home-desc">The apartment is a cozy and 
+            comfortable one-bedroom unit that can accommodate up to two guests. It features a fully equipped kitchen,
+             a comfortable living room, and a private bathroom.<br><br>
+             The apartment comes with free Wi-Fi, a flat-screen TV, and a washer and dryer.
+              There is also a shared rooftop deck with stunning views of the city skyline.
+
+         </p>
+         <hr class="line">
+         <div class="map">
+            <h3>Location on the map</h3>
+            <iframe src="https://www.google.com/maps/
+            embed?pb=!1m18!1m12!1m3!1d100940.1817627419!2d-122.52017297340393!3d37.75767119518565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1682904468625!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <b>San Francisco,california, united states</b>
+             <p>it's a place just like home</p>
+         </div>
+         <hr class="line">
+
+       
+
+
+
+       
+          <div class="host">
+            <img src="images/serge.JPG" alt="">
+            
+          </div>
+
+          <div>
+            <h2>Hosted by Serge Henry</h2>
+          </div>
+        
+        
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkden-in"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+             <hr>
+             <p><em>copyright &copy; JourneyJanction 2023.</em></p>
+          </div>
+        
+    </div>
+</div>
+
+
+<script>
+    var navbar = document.getElementById("navbar");
+    function togglebtn(){
+        navbar .classList.toggle("hidemenu");
+    }
+</script> 
+
+
+</body>
+</html>

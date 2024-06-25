@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vewport" content="width=device-width, initail-scaled=1.0">
+        <title>House information and detaile</title>
+        <script src="https://kit.fontawesome.com/dc916b4398.js" crossorigin="anonymous"></script>     
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <section class="top">
+            <h2><em>JourneyJanction</em></h2>
+            <div class="lin"></div>
+        </section>
+        <nav id="navbar" class="navbar-white">
+            <a href="index.html"><img src="images/nlogo.png" class="logo"></a>
+                <ul class="nav-links">
+                    <li class="what_to_do">
+                     <h2><em>Where can we take you ?</em></h2>
+                     <ul>
+                          <li><a href="destinations.html">Destinations</a></li>
+                          <li><a href="stays.html">Stays</a></li>
+                         <ul>
+                            <h4>need help?</h4>
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="things.html">Things to do</a></li>
+                         </ul>
+                     </ul>
+                    </li>
+                    
+                 </ul>
+            <a href="Register.html" class="register-btn">register now</a>
+            <i class="fa fa-bars " onclick="togglebtn()"></i>
+        </nav>
+
+               <div class="line"></div> 
+
+          <div class="fild"> 
+           
+          
+        <div class="conta"> 
+         <h1>Register  form</h1>
+       
+        <form class="fm" action="#" method="post" name="register_form" id="register_form">
+           
+            <fieldset>
+              
+                <label class="labe" for="first_name">First Name:</label>
+                <input class="inpu" type="text" name="first_name" id="first_name" placeholder="Enter First name"><br>
+
+                <label class="labe" for="last_name">Last Name:</label>
+                <input class="inpu" type="text" name="last_name" id="last_name" placeholder="Enter Last Name" ><br>
+
+                <label class="labe" for="">Username:</label>
+                <input class="inpu" type="text" name="username" id="username" placeholder="Enter username"><br>
+
+                <label class="labe" for="email">Email Address:</label>
+                <input class="inpu" type="email" name="email" id="email" placeholder="Enter Email"><br>
+
+              
+                <label class="labe" for="phone">Phone Number:</label>
+                <input class="inpu" type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="444-444-4444" required><br>
+                <label class="labe" for="">Password</label>
+                <input class="inpu" type="password" name="password" id="password" placeholder="Enter Password">
+                <button class="buto" type="submit">Register</button>
+            </fieldset>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var navbar = document.getElementById("navbar");
+    function togglebtn(){
+        navbar .classList.toggle("hidemenu");
+    }
+</script>
+    </body>
+    </html>
+          

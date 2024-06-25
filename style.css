@@ -1,0 +1,1236 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    padding: 0 25px;
+}
+
+.top{
+    padding: 10px;
+    display: flex;
+  
+  
+    
+}
+
+.top h2{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    padding: 0 25px;  
+}
+
+.top h2{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 70px;
+    background: #394586;
+    margin: 0 40px;
+
+}
+
+.lin{
+    background: black;
+    padding: 15px;
+    padding-bottom: 28px;
+    position: absolute;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/ground.jpg);
+    background-size: cover;
+    background-position:center ; 
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+    
+}
+.nav-links li{
+   list-style: none;
+   display: inline-block;
+   margin: 10px 30px;
+   background: #862d2d;
+   padding:8px 40px ;
+   border-radius: 20px;
+   font-size: 14px;
+   box-shadow: 2px 2px 5px black;
+
+}
+   
+
+.nav-links li a{
+ text-decoration: none;
+ color: #fff;
+}
+.what_to_do{
+    list-style: none;
+    color: #fff;
+    
+}
+
+/* .............css for the contact form................ */
+
+
+.bod {
+     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 254, 254);
+    margin: 0 auto;
+ 
+   
+ 
+}
+
+.fom{
+      background-color: #f3dbdb;
+      margin-bottom: 100px;
+      border-radius: 15px;
+}
+.lab {
+    color: #fff;
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+.inp, select, textarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+#buttons input {
+	width: 7em;
+}
+
+.field{
+     margin: 0 150px;
+     background-image: linear-gradient(to right,#3f2321, transparent), url(images/pho\ guy.png);
+     background-size: cover;
+     background-position: center;
+     padding-top: 55px;
+     padding-bottom: 55px;
+}
+fieldset {
+   
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    
+ 
+}
+.leg {
+    
+    color:#da7979;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: .5em;
+}
+.h22 {
+	color:#00CC00;
+}
+.inp:required:invalid {
+    background-image: url(../images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.inp:focus:invalid {
+    background-image: url(../images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.inp:required:valid {
+    background-image: url(../images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+/* ..........end contact form........... */
+
+
+
+
+.register-btn{
+    background: #862d2d;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 40px;
+   
+    
+}
+
+.x-container{
+    padding: 0 7%;
+    padding-bottom: 10px;
+}
+.x-container{
+    background-color: #cfd1b5;
+    
+}
+
+.header h1{
+    margin-top: 150px;
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgb(64, 6, 6);
+    text-align: center;
+    
+}
+
+.search-bar{
+    background: #d17171;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar form  label{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.search-bar form input{
+    margin-right: 7px;
+    display: block;
+    outline: none;
+    background:#fff;  
+}
+
+.search-bar form button{
+    background: #5398ff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+
+.location-inpute{
+    flex:1;
+}
+
+.search-bar form label{
+    font-weight: 600;
+
+}
+ 
+/* .......exlusives...... */
+
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+   
+}
+
+.exlusives{
+    background-color: #d3c8c8;
+    padding: 60px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 40px;
+    border-radius: 10px;
+
+}
+.exlusives div img{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.exlusives div{
+    position: relative;
+}
+
+.exlusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+/* -----------trending places---------- */
+
+.trending{
+    background-color: #d3c8c8;
+    padding: 60px 30px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 70px;
+    margin-bottom: 30px;
+}
+
+.trending div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* ---------------call to action------------ */
+
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right,#3f2321, transparent), url(images/flight.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+    
+}
+
+.cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/* ...........................Travellars stories.................. */
+
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 90px;
+    margin-bottom: 30px;
+}
+
+.stories div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.stories div{
+    position: relative;
+    text-align: center;
+}
+
+.stories div p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 26px;
+}
+
+.start-btn{
+    text-decoration: none;
+    background:#5389ff;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin:60px auto ;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+/* ................about-msg................... */
+
+.about-msg{
+   text-align: center;
+   margin: 80px 0;
+   color: #333;
+   font-size: 17px;
+}
+
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* ..................footer............... */
+
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+    padding-top: 10px;
+    background: #2c2e3a;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.fa-bars{
+    display: none;
+}
+
+/* ...............for small screen devices.................. */
+
+@media only screen and (max-width: 767px) {
+   
+    /* Header */
+    .header {
+        padding: 20px;
+    }
+
+    .sub-title{
+        font-weight: bold;
+        font-size:25px;
+        color: #a8443d;
+        text-shadow: 2px 2px 3px black;
+    }
+    
+    .logo {
+        max-width: 120px;
+    }
+
+    nav{
+        
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100;
+        background: #011022;
+        text-align: left;
+        padding:  10px  100px ;
+        margin-left: 69px;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+
+        
+    }
+    
+    
+   nav .nav-links li {
+        margin: 10px 0;
+        display: block;
+        background: rgb(63, 4, 4);
+    }
+    
+    .nav-links li a {
+        font-size: 10px;
+        color: #fff;
+        background: black;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    
+    .register-btn {
+    
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        background-color: #F25C05;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        max-width: 150px;
+    }
+    
+    .fa-bars{
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7px;
+        color: #fff;
+        font-size: 28px;
+    }
+    
+   .hidemenu{
+    max-height: 500px;
+   }
+
+    /* Search bar */
+    .search-bar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    form > div {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+    
+    form > div > label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    form > div > input[type="text"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    button[type="submit"] {
+        background-color: #F25C05;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Exclusives */
+    .exlusives {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .exlusives > div {
+        display: flex;
+       
+        margin-bottom: 20px;
+    }
+    
+  
+    
+    .exlusives > div > img {
+        max-width: 100%;
+        height: 70%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .exlusives > div > span {
+        display: block;
+        text-align: center;
+    }
+    
+    .exlusives > div > span > h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+       
+    }
+    
+    .exlusives > div > span > p {
+        font-size: 1rem;
+        color: #F25C05;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    /* Trending */
+    .trending {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .about-msg{
+        margin: 0 20px;
+        text-align: center;
+
+    }
+
+    .footer p{
+        margin: 10px 0 40px;
+
+    }
+
+    .hidemenu{
+        max-width: 300 px; 
+            
+
+    }
+}
+
+
+/* ............................................................................. */
+/* ............................................................................. */
+
+
+
+/* ........inside page.......... */
+
+.navbar-white{
+    background-color: #f7ebeb;
+    box-shadow: 0 5px 19px rgb(0,0,0,0.5);
+}
+
+.navbar-white .nav-links li a{
+    color: #fff;
+}
+
+.navbar-white .register-btn{
+ background:#862d2d;
+}
+
+.navbar-white .fa-bars{
+    color: #000;
+}
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-col{
+    flex-basis: 100%;
+}
+
+
+.left-col h1{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.house{
+   display: flex; 
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 30px 0;
+   border-top: 1px solid #ccc ;
+}
+
+.house-img{
+    flex-basis:40%;
+}
+
+.house-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.house-info{
+    flex-basis:58% ;
+    color: #555;
+}
+.house-info h3{
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    margin: 4px 0;
+}
+.house-info .dec{
+    color: #ac2727;
+}
+.house-info i{
+  color: #b46913;  
+}
+
+.house-price{
+    text-align: right;
+}
+
+.house-price h4{
+    font-size: 20px;
+}
+.house-price span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.sidebar{
+    border: 1px solid #899;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.sidebar h2{
+    font-weight: 500;
+}
+
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+
+
+ /* /* ..........small screen........ */
+
+ @media only screen and (max-width: 767px){
+
+    .list-container{
+        margin-top: 150px;
+    }
+    .left-col, .right-col, .house-img, .house-info{
+        flex-basis: 100%;
+    }
+    
+    .left-col{
+        font-size: 22px;
+    }
+    .house-info{
+        font-size: 18px;
+    }
+
+    .house-info p{
+        font-size: 15px;
+    }
+ }
+
+/* ............house details page.......... */
+
+.house_details{
+    padding: 0 12%;
+
+}
+
+.house_title{
+    margin-top: 50px;
+}
+
+.house_title h1{
+    font-weight:600;
+}
+.house_title .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.house_title span{
+    margin: 0 20px;
+}
+.house_title i{
+    color: #b46913;
+    font-size: 14px;
+}
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:'mary mary . .' 'mary mary. .';
+    margin: 20px 0;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.gallery-img-1{
+    grid-area: mary;
+} 
+
+.small-details h2{
+   font-weight: 500;
+}
+.small-details h4{
+    text-align: right;
+    font-size: 22px;
+}
+
+.small-details p{
+    color: #865011;
+}
+
+.line{
+    border: 0;
+    height: 1PX;
+    background: #CCC;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+
+.check-form{
+    margin: 30px 0;
+    background: #f7ebeb;;
+    box-shadow: 0 0 30px rgb(0,0,0,0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.check-form label{
+    display: block;
+
+}
+
+.check-form div{
+    padding: 20px;
+}
+
+.check-form input{
+    background:transparent ;
+    outline: none;
+}
+
+.check-form button{
+    background: #ff5361;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+.guest-land{
+    flex: 1;
+}
+.datal-l{
+    list-style: none;
+    margin: 50px 0 ;
+}
+
+.datal-l li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+
+.datal-l li span{
+    display: block ;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.datal-l li i{
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+.home-desc{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin-bottom: 50px;
+    color: #4e4747;
+}
+
+.map{
+    margin: 0 50px;
+
+}
+
+.map iframe{
+    width: 100%;
+    margin-bottom: 50px;
+} 
+
+.map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.map b{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.host{
+    
+}
+
+.host img{
+    width: 100%;
+    height: 100%;
+}
+
+
+ /* /* ..........small screen for house detail page........ */
+
+ @media only screen and (max-width: 767px){
+    .house_details{
+      
+        margin-top: 150;
+    }
+    .row p{
+      margin-top: 10px;
+    }
+    .gallery{
+    
+    }
+ }
+
+ /* ..............things to do.................. */
+ 
+ .find{
+    margin-top: 20px;
+ }
+
+ .find h2{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+ }
+ 
+ .location{
+    margin: 30px 0;
+    background: #f7ebeb;;
+    box-shadow: 0 0 30px rgb(0,0,0,0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.location label{
+    display: block;
+
+}
+
+.location div{
+    padding: 20px;
+}
+
+.location input{
+    padding: 6px 100px;
+    background:#fff ;
+    outline: none;
+}
+
+.location button{
+    background: #ff5361;
+    outline: none;
+    color: #fff;
+    padding: 5px 5px;
+    width: 10%;
+    border-radius: 10px;
+    
+}
+
+.seclect_date{
+        flex: 1;}
+
+
+/* ..............things to do................. */
+
+
+
+.t-container{
+    padding: 0 7%;
+    padding-bottom: 55px;
+}
+.t-container{
+    background-color: #f1efef;
+    
+}
+
+.find h2{
+    font-size: 40px;
+    color: #727264;
+}
+.things_to{
+    background-color: #d3c8c8;
+    padding: 60px 30px;
+    padding-bottom: 190px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 70px;
+   
+}
+
+.things_to div img{
+
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+   
+   
+    
+}
+
+.things_to div span p{
+   margin-bottom: 14px;
+
+}
+
+.things_to h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+ .sub_t{
+    margin: 20px 0;
+    font-size: 30px;
+ }
+
+/* ..............css for the small device.............. */
+ @media only screen and (max-width: 767px){
+
+    .find h2{
+        font-weight: 600;
+        margin-top: 50px;
+        font-size: 30px;
+       text-align: center;
+    }
+
+    .location  {
+        width:100%;
+        height: 30%;
+        
+    }
+    .location label{
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .location .loc input{
+        padding: 5px 30px;
+    }  
+
+    .location .seclect_date input{
+        padding: 6px 74px;
+        border: none;
+        border-radius: 5px;
+
+    }
+   
+
+    .location .sub[type="submit"] {
+            width: 50%;
+            background-color: #F25C05;
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 20px;
+            margin-top: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    
+    .sub_t{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .footer{
+        background-color: #626ca1;
+        border-radius: 10px;
+    }
+
+ }
+
+
+
+/*..................... registration form ..........................*/
+
+
+
+   
+ 
+
+
+
+
+
+.fild{
+     
+     min-height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(to right,#3f2321, transparent), url(images/regist.jpg);
+     background-size: cover;
+  
+   
+     
+     
+  
+     
+
+}
+
+.conta{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    margin-bottom: 50px;
+    transform: translate(-50%,-50%);
+}
+
+.conta h1{
+    color: #d0d4cc;
+    margin: 5px -16px;
+    margin-bottom: 5;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.conta form{
+      width: 100%;
+      
+}
+
+fieldset{
+    border: none;
+}
+
+.conta .labe{
+    display: block;
+    color: #f0ecdc;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.conta .inpu{
+    color: #0202019d;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 5px auto;
+    background: #e2e2e2;
+    border-radius: 0 10px;
+    outline: none;
+    border: none;
+}
+     
+.conta .buto{
+    display: block;
+    border: none;
+    margin: 20px 50px;
+    background: #862d2d;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    
+   
+    
+}
+
+  
+@media only screen and (max-width: 767px){
+
+    .fild{
+         
+           border-radius: 10px;
+           margin-bottom: 20px;
+    }
+    .fild .conta{
+       top: 70%;
+
+    }
+
+     .conta h1{
+        font-size: 22px;
+        margin: 5px auto;
+    }
+
+    .conta .labe{
+        font-size: 15px;
+    }
+    .conta .inpu{
+        padding: 5px 10px;
+        border-radius: 10px 0;
+        
+    }
+
+    .buto[type="submit"] {
+        background-color: #F25C05;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-top: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+
+}
+
